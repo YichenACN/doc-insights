@@ -86,10 +86,10 @@ def UC3(model):
         "What is the summary of their sustainability initiatives in 300 words",
         "What is their latest green gas emissions by scope(1,2,3)?",
         "Do they have a net zero target?",
-        #"What are their goals to reduce carbon emissions? List the % reduction, by which year and what is their baseline year.",
+        "What are their goals to reduce carbon emissions? List the % reduction, by which year and what is their baseline year.",
         #"What sustainability initiatives do they have with a brief description of each?",
-        #"What actions are they taking to reduce the carbon emission?",
-        #"Do they have externally verified carbon reduction targets?"
+        "What actions are they taking to reduce the carbon emission?",
+        "Do they have externally verified carbon reduction targets?"
     ]
 
     user_input = get_text()
