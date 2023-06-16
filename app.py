@@ -11,7 +11,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.document_loaders import PyPDFLoader, PDFPlumberLoader
 from langchain.vectorstores import Chroma
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 def document2vecdb(doc_path, chunk_size, chunk_overlap):
     loader = PyPDFLoader(doc_path)
